@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Labb2.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Labb2.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Labb2.Models.dll": {}
+        }
+      },
+      "Labb2.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Labb2.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Labb2.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Labb2.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Labb2.Models/1.0.0": {
+      "type": "project",
+      "path": "../Labb2.Models/Labb2.Models.csproj",
+      "msbuildProject": "../Labb2.Models/Labb2.Models.csproj"
+    },
+    "Labb2.Services/1.0.0": {
+      "type": "project",
+      "path": "../Labb2.Sevices/Labb2.Services.csproj",
+      "msbuildProject": "../Labb2.Sevices/Labb2.Services.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "Labb2.Models >= 1.0.0",
+      "Labb2.Services >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\youmn\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\youmn\\source\\repos\\Youmna\\Labb2.GUI\\Labb2.GUI.csproj",
+      "projectName": "Labb2.GUI",
+      "projectPath": "C:\\Users\\youmn\\source\\repos\\Youmna\\Labb2.GUI\\Labb2.GUI.csproj",
+      "packagesPath": "C:\\Users\\youmn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\youmn\\source\\repos\\Youmna\\Labb2.GUI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\youmn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\youmn\\source\\repos\\Youmna\\Labb2.Models\\Labb2.Models.csproj": {
+              "projectPath": "C:\\Users\\youmn\\source\\repos\\Youmna\\Labb2.Models\\Labb2.Models.csproj"
+            },
+            "C:\\Users\\youmn\\source\\repos\\Youmna\\Labb2.Sevices\\Labb2.Services.csproj": {
+              "projectPath": "C:\\Users\\youmn\\source\\repos\\Youmna\\Labb2.Sevices\\Labb2.Services.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
